@@ -1,0 +1,63 @@
+/* Styles for the container element */
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background-color: antiquewhite;
+  /* Background color for the container */
+}
+
+/* Styles for the title */
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Styles for the form group */
+.form-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* Styles for the input field */
+.input-field {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Styles for the fetch button */
+.fetch-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  /* Background color for the button */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Styles for the result section */
+.result {
+  margin-bottom: 20px;
+}
+
+/* Styles for the name and nationality */
+.name,
+.nationality {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Styles for the render count */
+.render-count {
+  font-size: 16px;
+  font-style: italic;
+}
